@@ -1,20 +1,33 @@
 # Matico Handicrafts
-Matico is a new brand, born by a family tradition.
+
+MATICO has among its catalog a large number of products for adults, children and babies, additionally it offers a wide range of home decoration and furniture, using only materials from the best suppliers such as lace, soft wool and threads combined with complex fabrics and patterns. 
+
+In this way, MATICO products are unique, original, personalized and of the highest quality to always satisfy our customers.
+
+It is a new brand, born by a family tradition!
 
 # Pabon Natalia FIP
 Final Intagrate Proyect for 1st semester
 
 ## Project SiteMap
 
-[Project roadmap Google Doc Link]
+[Project roadmap Google Driver Link]
 https://drive.google.com/file/d/1YPqh1o8JtPmVHeULyeDH5c6FX5M3IsPd/view?usp=sharing
 
 ## Project wireframes
 
 In this file You can find the basic wireframe and the detailed wireframe.
 
-[Project wireframes Google Doc Link]
+[Project wireframes Google Driver Link]
 https://drive.google.com/file/d/1HLsbub4H0mBgKWY2seujZf_GIMREMQrX/view?usp=sharing
+
+## Project Outline
+
+In this file You can find the outline code verification
+
+[Project outline Google driver Link]
+https://drive.google.com/file/d/1scboU9hEhykwdTG2p4JRNPVduJGd2nXj/view?usp=sharing
+
 
 # MIT License
 
