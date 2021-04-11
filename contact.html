@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Matico • Contact us</title>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+
+
+</head>
+<body>
+	<h1 class="hidden">Matico • Contact us</h1>
+	<!-- Build Site Container first always-->
+	<div id="container">
+		<header id="mainHeader">
+			<section id="navContainer">
+			<h2 class="hidden">Nav container</h2>
+				<div id="mainNavCon">
+				<h3 class="hidden">Main logo</h3>
+					<div id="logo">
+						<img src="images/logo/matico_logo_header_white.png" width="100" alt="Matico logo">						
+					</div>
+					
+					<div id="mainNav">
+					<nav class="navBox">
+					<h3 class="hidden">Main Navigation</h3>						
+							<ul>
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="about.html">ABOUT US</a></li>
+								<li><a href="shop.html">SHOP</a></li>
+								<li><a href="contact.html">CONTACT US</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<div id="subNavCon">
+					<section class="subNavView">
+						<h3 class="hidden">Sub Navigation</h3>
+					<!--This seccion is for the users information | login icon, my favorite icon, the cart icon-->
+						<img src="images/icons/iconos_user_login.png" width="30" alt="user login">
+						<img src="images/icons/iconos_fav.png" width="30" alt="my favorite">
+						<img src="images/icons/iconos_cart.png" width="30" alt="my cart">
+					</section>					
+				</div>
+			</section>
+		</header>
+
+		<div id="contactCon">
+			<section class="contactForm">
+				<h2 class="hidden">Contact us</h2> <!-- contact SECTION-->
+					<section id="textContactCon">
+						<h2>Tell us</h2>
+						<p>Fill out the contact form and we’ll be back in touch with you as soon as possible…</p>
+					</section>
+					<!-- Form for TELL US-->
+					<section id="formCon">
+						<h3 class="hidden">form Container</h3>
+						<form action="form.php" method="post">
+							<section class="formItem">
+								<h4 class="hidden">Full name</h4>
+								<label for="fullname">Full name</label>
+								<input type="text" name="firstname" id="fullname">
+							</section>
+
+							<section class="formItem">
+								<h4 class="hidden">adress</h4>
+								<label for="email">Email address</label>
+								<input type="text" name="email" id="email">
+							</section>
+
+							<section class="formItem">
+								<h4 class="hidden">Phone Number</h4>
+								<label for="phone">Phone Number</label>
+								<input type="text" name="phone" id="phone">
+							</section>
+
+							<section class="formItem">
+								<h4 class="hidden">Topic</h4>
+								<label for="topic">Choose a topic for this email</label>
+								<select name="topic" id="topic">
+									<option value="warranty">Warranty & Repairs</option>
+									<option value="delivery">Delivery</option>
+									<option value="payment">Online Orders & Payments</option>
+									<option value="refund">Refunds & Exchanges</option>
+									<option value="promotions">Promotions & Vouchers</option>
+									<option value="other">Other</option>
+								</select>
+							</section>
+							<section class="formItem">
+								<h4 class="hidden">Message</h4>
+								<label for="message">Please enter your message</label>
+								<textarea rows="5" cols="10" name="message" id="message"></textarea>
+							</section>
+							
+							<input type="Submit" name="Submit">
+						</form>
+					</section>
+			</section> <!-- contact SECTION end tag-->
+			<section class="imageForm">
+				<h2 class="hidden">Contact Picture</h2>
+				<img src="images/promos/contact_phone_brand.jpg" width="470" alt="contact us matico">
+			</section> <!-- contact SECTION end tag-->
+
+		</div>
+
+
+<!-- The footer starts-->
+		<footer id="mainFooter">
+			<section class="footerCon">
+			<h2 class="hidden">Footer Navigation Container</h2>
+				<div id="footerLogo">
+				<h3 class="hidden">footer Logo</h3>
+					<img src="images/logo/matico_logo_footer_white.png" width="140" alt="ametista ametista_logo_01">
+				</div>
+				
+				<div id="copyRight">
+				<h3 class="hidden">footer Copyright</h3>
+					<p>Copyright &copy; 2021 MATICO. All rights reserved. MATICO logo is registered and trademarks.</p>
+				</div>
+
+				<div id="footerMainNav">
+					<nav class="navBoxfooter"><!-- the second menu | footer menu-->
+						<h3 class="hidden">footer Main Navigation</h3>
+						<ul>
+							<li><a href="index.html">home</a></li>
+							<li><a href="about.html">About us</a></li>
+							<li><a href="shop.html">Shop</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div id="footerSubNav">
+				<h3 class="hidden">footer Sub Navigation</h3>
+						<img src="images/icons/iconos_instagram.png" width="30" alt="instagram">			
+						<img src="images/icons/iconos_whatsapp.png" width="30" alt="whats app">
+						<img src="images/icons/iconos_email.png" width="30" alt="e mail">
+				</div>
+			</section>
+		</footer><!-- Footer close tag-->
+
+	</div> <!-- Site container close tag-->
+
+<script src="js/main.js"></script>
+</body>
+</html>
