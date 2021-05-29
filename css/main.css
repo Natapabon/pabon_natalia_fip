@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #E2E1CF; 
+	background-color: #E2E1CF;
 }
 
 #container
@@ -31,9 +31,9 @@ body
 }
 
 h2{
-	font-family: Sofia regular, Lobster, cursive;
+	font-family: Sofia, Lobster, cursive;
 	font-size: 45px;
-	color: #8F8F67;	
+	color: #8F8F67;
 	padding: 20px;
 	line-height: 40px;
 	text-align: center;
@@ -66,7 +66,7 @@ img{
 	margin-top: 10px;
 	font-weight: bold;
 	color: white;
-	text-align: center; 
+	text-align: center;
 	background-color: #DD398C;
 	border: 2px;
 	border-style: solid;
@@ -93,7 +93,7 @@ img{
 	margin-top: 30px;
 	background-color: transparent;
 	display: inline-flex;
-	position: absolute;	
+	position: absolute;
 }
 
 #mainNavCon
@@ -120,7 +120,7 @@ img{
 	width: 590px;
 	height: 50px;
 	margin-left: 30px;
-	padding: 20px;	
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -135,8 +135,8 @@ img{
 	padding: 5px;
 	margin: 10px;
 	color: white;
-	font-family: Aliens and Cows, Arial, sans-serif;
-	font-weight: normal, bold, bold;
+	font-family: Oswald, Arial, sans-serif;
+	font-weight: bold;
 	font-size: 21px;
 	text-decoration: none;
 	display: block;
@@ -195,7 +195,7 @@ img{
 
 .textImageMainBanner button {
 	background-color: #BBBC99;
-	border-color: #8F8F67; 
+	border-color: #8F8F67;
 }
 
 .textImageMainBanner h2 {
@@ -234,7 +234,7 @@ img{
 
 }
 
-#springPromo 
+#springPromo
 {
 	height: 230;
 	margin-top: 20px;
@@ -422,7 +422,7 @@ img{
 #ourTeamCon
 {
 	width: 960px;
-	height: 430px;	
+	height: 430px;
 	align-items: central;
 }
 
@@ -445,7 +445,7 @@ img{
 	text-overflow: initial;
 	margin: 20px;
 }
-	
+
 .teamMembers h3{
 	margin-top: 10px;
 }
@@ -454,7 +454,7 @@ img{
 #shopCon
 {
 	width: 960px;
-	justify-content: center;	
+	justify-content: center;
 	flex-direction: column;
 }
 
@@ -483,7 +483,7 @@ img{
 	flex-wrap: wrap;
 }
 
-.productImg 
+.productImg
 {
 	width: 130px;
 	align-items: center;
@@ -543,8 +543,8 @@ img{
 	height: 160px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	background-color: #777777; 
-	justify-content: center;	
+	background-color: #777777;
+	justify-content: center;
 	flex-direction: column;
 }
 .disclaimer h2
@@ -612,5 +612,5 @@ img{
 .imageForm
 {
 	width: 470px;
-	flex-direction: row; 
+	flex-direction: row;
 }
